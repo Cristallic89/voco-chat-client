@@ -24,14 +24,14 @@ function App() {
         <div class="guest_box">
 
           <form>
-            <input type="text"  name="message" placeholder="Username..." />
+            <input type="text"  name="message" placeholder="Username..." onChange={(event) => {setAuthor(event.target.value);}} />
           </form>
 
         </div>
         <div class="uus_tekst">
 
           <form>
-           <input type="text"  name="message" placeholder="Your message here..." />
+           <input type="text"  name="message" placeholder="Your message here..."  onChange={(event) => {setText(event.target.value);}}/>
           </form>
 
         </div>
