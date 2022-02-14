@@ -1,11 +1,12 @@
 
-.chatbox {
+.taust {
   width: 600px;
   height: 550px;
   margin: auto;
   background-color: #313131;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  padding-top: 20px;
 }
 
 .khk {
@@ -16,16 +17,18 @@
 }
 
 
-.bubble{
+.mullike{
   width: 500px;
   height: 80px;
   background-color: #6c6c6c;
   color: white;
   border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
 
 }
 
-.messagebox {
+.uus_sonum {
   width: 600px;
   height: 80px;
   background-color: #ffffff;
@@ -36,10 +39,34 @@
 
 }
 
+.guest_box{
+  width: 100px;
+  height: 78px;
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 25px;
+  border-up-right-radius: 25px;
+  border-color: #313131;
+  border: solid 1px;
+}
+
+.uus_tekst{
+  width: 520px;
+  height: 80px;
+  background-color: red;
+  color: black;
+  border-up-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+}
+
+.parandus{
+  display: flex;
+}
 
 .background{
   background: linear-gradient(217deg, rgb(225, 50, 145), rgba(255,0,0,0) 42.75%),
   linear-gradient(127deg, rgb(40, 0, 161), rgba(0,255,0,0) 130.00%),
   linear-gradient(336deg, rgb(83, 22, 190), rgba(0,0,255,0) 60.71%);
-  height: 100vh;
+  height: 100%;
 }
