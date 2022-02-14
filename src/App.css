@@ -1,27 +1,44 @@
 
 .chatbox {
-  width: 80vh;
-  height: 80vh;
+  width: 600px;
+  height: 550px;
+  margin: auto;
   background-color: #313131;
-  border-radius: 8px;
-  margin:auto;
-
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
+
+.khk {
+  font-size: 40px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+
 
 .bubble{
-  width: 88%;
-  height: 15%;
+  width: 500px;
+  height: 80px;
   background-color: #6c6c6c;
   color: white;
-  margin:auto;
   border-radius: 8px;
+}
+
+.messagebox {
+  width: 600px;
+  height: 80px;
+  background-color: #ffffff;
+  color: black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin: auto;
 
 }
+
 
 .background{
   background: linear-gradient(217deg, rgb(225, 50, 145), rgba(255,0,0,0) 42.75%),
   linear-gradient(127deg, rgb(40, 0, 161), rgba(0,255,0,0) 130.00%),
   linear-gradient(336deg, rgb(83, 22, 190), rgba(0,0,255,0) 60.71%);
   height: 100vh;
-
 }
